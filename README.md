@@ -14,9 +14,10 @@ Use a browser or `curl`:
 
 ```bash
 curl http://localhost:3000/hello/Alice
+```
 
 
-  How It Works
+  How It Works :-
 - User sends a request to http://localhost:3000/hello/:name.
 - The Express server (server.js) extracts the name and calls the gRPC client (grpc-client.js).
 - The gRPC client communicates with the gRPC server (grpc-server.js) on localhost:50051.
